@@ -39,3 +39,16 @@ char    *ft_strdup(char *src)
     dest[i] = '\0';
     return (dest);
 }
+
+void    ft_free_tab(struct s_stock_str *tab, int index)
+{
+    int    i;
+
+    i = 0;
+    while (i < index)
+    {
+        free(tab[i].copy);
+        i++;
+    }
+    free(tab);
+}
