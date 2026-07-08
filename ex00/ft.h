@@ -1,10 +1,22 @@
-#ifndef FT_H
-#define FT_H
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft.h                                               :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nfurst <nfurst@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/07/08 13:25:23 by nfurst            #+#    #+#             */
+/*   Updated: 2026/07/08 13:39:53 by nfurst           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-extern void	ft_putchar(char c);
-extern void	ft_swap(int *a, int *b);
-extern void ft_putstr(char *str);
-extern int	ft_strlen(char *str);
-extern int	ft_strcmp(char *s1, char *s2);
+#ifndef FT_H
+# define FT_H
+
+void	ft_putchar(char c);
+void	ft_swap(int *a, int *b);
+void	ft_putstr(char *str);
+int		ft_strlen(char *str);
+int		ft_strcmp(char *s1, char *s2);
 
 #endif
